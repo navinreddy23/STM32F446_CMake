@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.15)
 
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
-set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/arm-none-eabi-gcc.cmake CACHE INTERNAL "ARM toolchain")
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/arm-none-eabi-gcc.cmake)
 
 enable_language(C ASM)
 set(CMAKE_C_STANDARD 11)
