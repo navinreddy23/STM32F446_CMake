@@ -4,6 +4,8 @@ This repository is created to experiment with CMake and STM32F4 microcontroller.
 
 If Qt Creator is your favourite IDE for editing the code, why not use it for debugging!
 
+STM32Cube Package is used for generating the HAL and CMSIS libraries: https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html
+
 ## Build instruction - Command line
 
 create a build directory from the root of this repository and execite the build commmands.
